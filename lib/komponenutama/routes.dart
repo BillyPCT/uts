@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:utspcs/Isi/isiprofileenglish/akunenglish.dart';
 import 'package:utspcs/Isi/isiprofileenglish/bahasainggris.dart';
 import 'package:utspcs/Isi/isiprofileindo/Bantuan.dart';
 import 'package:utspcs/Isi/isiprofileindo/HistoryPekerjaan.dart';
@@ -34,6 +35,8 @@ case '/A':
         return SlideRightRoute(widget: A()); 
 case '/Aenglish':
         return SlideRightRoute(widget: Aenglish()); 
+        case '/akunenglish':
+        return SlideRightRoute(widget: akunenglish()); 
 case '/biodataprofile':
         return SlideRightRoute(widget: biodataprofile()); 
 case '/splash':

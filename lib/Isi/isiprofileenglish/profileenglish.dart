@@ -61,7 +61,7 @@ class Profileenglish extends StatelessWidget {
             Icons.arrow_forward,
           ),
           onTap: () {
-            Navigator.pushNamed(context, "/Bprofile");
+            Navigator.pushNamed(context, "/akunenglish");
           },
         ),
      
