@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:utspcs/Isi/isiprofileenglish/JobDesk.dart';
 import 'package:utspcs/Isi/isiprofileenglish/akunenglish.dart';
 import 'package:utspcs/Isi/isiprofileenglish/bahasainggris.dart';
+import 'package:utspcs/Isi/isiprofileenglish/help.dart';
 import 'package:utspcs/Isi/isiprofileindo/Bantuan.dart';
 import 'package:utspcs/Isi/isiprofileindo/HistoryPekerjaan.dart';
 import 'package:utspcs/Isi/isiprofileindo/akun.dart';
@@ -35,6 +37,12 @@ case '/A':
         return SlideRightRoute(widget: A()); 
 case '/Aenglish':
         return SlideRightRoute(widget: Aenglish()); 
+        case '/Aenglish':
+        return SlideRightRoute(widget: Aenglish()); 
+        case '/help':
+        return SlideRightRoute(widget: help()); 
+        case '/jobdesk':
+        return SlideRightRoute(widget: jobdesk()); 
         case '/akunenglish':
         return SlideRightRoute(widget: akunenglish()); 
 case '/biodataprofile':

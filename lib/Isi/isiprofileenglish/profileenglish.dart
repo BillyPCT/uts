@@ -78,7 +78,9 @@ class Profileenglish extends StatelessWidget {
           trailing: Icon(
             Icons.arrow_forward,
           ),
-          onTap: () {},
+          onTap: () {
+              Navigator.pushNamed(context, "/jobdesk");
+          },
         ),
        Divider(
           color: Colors.black,
@@ -112,7 +114,9 @@ class Profileenglish extends StatelessWidget {
           trailing: Icon(
             Icons.arrow_forward,
           ),
-          onTap: () {},
+          onTap: () {
+             Navigator.pushNamed(context, "/help");
+          },
         ),
        Divider(
           color: Colors.black,
